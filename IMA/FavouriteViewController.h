@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FavouriteViewController : UIViewController
+@interface FavouriteViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property(nonatomic,retain) IBOutlet UITableView *tblFavourite;
 
 @end

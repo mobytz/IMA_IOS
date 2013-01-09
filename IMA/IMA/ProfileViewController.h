@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ProfileViewController : UIViewController
+@interface ProfileViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property(nonatomic,retain) IBOutlet UITableView *tblRecentPosts;
+@property(nonatomic,retain) IBOutlet UIButton *btnBack;
+@property(nonatomic,retain) IBOutlet UIImageView *imgProfile;
+
+-(IBAction)back:(id)sender;
 
 @end
