@@ -9,6 +9,7 @@
 #import "ProfileViewController.h"
 #import "MyTableViewCell.h"
 #import "UIScrollView+AH3DPullRefresh.h"
+#import "classUser.h"
 @interface ProfileViewController ()
 
 @end
@@ -16,7 +17,7 @@
 @implementation ProfileViewController
 //NSArray *arrPosts;
 //NSArray *thumbnails;
-@synthesize tblRecentPosts;
+@synthesize tblRecentPosts,lblLocation,lblUserid,lblWork,imgTriangle,imgProfile;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -89,7 +90,8 @@ forRowAtIndexPath:(NSIndexPath *)indexPath {
 {
            static NSString *simpleTableIdentifier = @"MyTableViewCell";
         
-        MyTableViewCell *cell = (MyTableViewCell*)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+   // NSLog(@"Row is %d",indexPath.row);
+    MyTableViewCell *cell = (MyTableViewCell*)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
         if (cell == nil)
         {
             NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"MyTableViewCell" owner:self options:nil];

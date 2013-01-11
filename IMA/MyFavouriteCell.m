@@ -9,7 +9,7 @@
 #import "MyFavouriteCell.h"
 
 @implementation MyFavouriteCell
-@synthesize lblDate,lblUserName,lblStatus;
+@synthesize lblDate,lblUserName,lblStatus,imgProfilePic,imgBottomShape,imgTriangle,imgRightShape;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

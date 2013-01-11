@@ -10,15 +10,18 @@
 
 @interface MyChatCell : UITableViewCell
 {
-    UIImage *imgShape;
+    UIImageView *imgShape;
     UIImageView*imgProfilePic;
     UILabel *lblUserName;
     UILabel *lblDate;
     UILabel *lblMessage;
     UIButton *btnProfileView;
+    UIImageView *imgRightShape;
     
 }
-@property(nonatomic,retain) IBOutlet UIImage *imgShape;
+@property(nonatomic,retain) IBOutlet UIImageView *imgShape;
+
+@property(nonatomic,retain) IBOutlet UIImageView *imgRightShape;
 
 @property(nonatomic,retain) IBOutlet UIImageView *imgProfilePic;
 
@@ -29,6 +32,8 @@
 @property(nonatomic,readonly) IBOutlet UILabel *lblMessage;
 
 @property(nonatomic,readonly) IBOutlet UIButton *btnProfileView;
+
+@property(nonatomic,retain) IBOutlet UIImageView *imgBottomShape;
 -(IBAction)ViewProfile:(id)sender;
 
 @end

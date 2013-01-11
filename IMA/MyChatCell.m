@@ -10,7 +10,7 @@
 #import "ProfileViewController.h"
 
 @implementation MyChatCell
-@synthesize lblDate,lblMessage,lblUserName,imgProfilePic,imgShape,btnProfileView;
+@synthesize lblDate,lblMessage,lblUserName,imgProfilePic,imgShape,btnProfileView,imgRightShape,imgBottomShape;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -29,9 +29,9 @@
 }
 -(IBAction)ViewProfile:(id)sender
 {
-    //ProfileViewController *pView=[[ProfileViewController alloc]initWithNibName:@"ProfileViewController" bundle:nil];
+   // ProfileViewController *pView=[[ProfileViewController alloc]initWithNibName:@"ProfileViewController" bundle:nil];
     //pView.btnBack.hidden=NO;
-    //[self presentModalViewController:pView animated:YES];
+    //[[UIApplication sharedApplication] presentModalViewController:pView animated:YES];
     
     
 }

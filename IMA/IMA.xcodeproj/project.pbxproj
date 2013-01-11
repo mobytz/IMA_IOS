@@ -12,6 +12,7 @@
 		C63EFA6C169AE2860082581C /* Female3.png in Resources */ = {isa = PBXBuildFile; fileRef = C63EFA67169AE2860082581C /* Female3.png */; };
 		C63EFA6D169AE2860082581C /* Male1.png in Resources */ = {isa = PBXBuildFile; fileRef = C63EFA68169AE2860082581C /* Male1.png */; };
 		C63EFA6E169AE2860082581C /* Male2.png in Resources */ = {isa = PBXBuildFile; fileRef = C63EFA69169AE2860082581C /* Male2.png */; };
+		C64F4FDF169FBF0D00F42AAD /* Pinkline.png in Resources */ = {isa = PBXBuildFile; fileRef = C64F4FDE169FBF0D00F42AAD /* Pinkline.png */; };
 		C692E93816941057007F340C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C692E93716941057007F340C /* Default-568h@2x.png */; };
 		C692E945169412CB007F340C /* Martin.png in Resources */ = {isa = PBXBuildFile; fileRef = C692E944169412CB007F340C /* Martin.png */; };
 		C692E94916941A05007F340C /* CyanShape.png in Resources */ = {isa = PBXBuildFile; fileRef = C692E94816941A05007F340C /* CyanShape.png */; };
@@ -22,12 +23,20 @@
 		C692E957169430F9007F340C /* Favorite2.png in Resources */ = {isa = PBXBuildFile; fileRef = C692E956169430F9007F340C /* Favorite2.png */; };
 		C692E960169439F2007F340C /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C692E95F169439F2007F340C /* arrow.png */; };
 		C692E96216943AAC007F340C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C692E96116943AAC007F340C /* QuartzCore.framework */; };
+		C692F17A169E8AAB003E6680 /* Male3.png in Resources */ = {isa = PBXBuildFile; fileRef = C692F176169E8AAB003E6680 /* Male3.png */; };
+		C692F17B169E8AAB003E6680 /* Female5.png in Resources */ = {isa = PBXBuildFile; fileRef = C692F177169E8AAB003E6680 /* Female5.png */; };
+		C692F17C169E8AAB003E6680 /* Female4.png in Resources */ = {isa = PBXBuildFile; fileRef = C692F178169E8AAB003E6680 /* Female4.png */; };
+		C692F17D169E8AAB003E6680 /* Male4.png in Resources */ = {isa = PBXBuildFile; fileRef = C692F179169E8AAB003E6680 /* Male4.png */; };
+		C692F187169EDD3C003E6680 /* FavouritesTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = C692F186169EDD3C003E6680 /* FavouritesTitle.png */; };
+		C692F18C169EDE7D003E6680 /* MyChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C692F18A169EDE7D003E6680 /* MyChatViewController.m */; };
+		C692F18D169EDE7D003E6680 /* MyChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C692F18B169EDE7D003E6680 /* MyChatViewController.xib */; };
 		C69338111696ACA7001A2BD2 /* UIScrollView+AH3DPullRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C69338101696ACA7001A2BD2 /* UIScrollView+AH3DPullRefresh.m */; };
-		C69338161696AD6C001A2BD2 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C69338141696AD6C001A2BD2 /* ChatViewController.m */; };
-		C69338171696AD6C001A2BD2 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C69338151696AD6C001A2BD2 /* ChatViewController.xib */; };
 		C693381B1696ADF9001A2BD2 /* MyChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C69338191696ADF9001A2BD2 /* MyChatCell.m */; };
 		C693381C1696ADF9001A2BD2 /* MyChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C693381A1696ADF9001A2BD2 /* MyChatCell.xib */; };
 		C69338201696D13D001A2BD2 /* CyanTriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = C693381F1696D13D001A2BD2 /* CyanTriangle.png */; };
+		C6944BEA169D278B00B8ABFC /* classUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C6944BE9169D278B00B8ABFC /* classUser.m */; };
+		C6944BF3169D415A00B8ABFC /* pinkTriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = C6944BF2169D415A00B8ABFC /* pinkTriangle.png */; };
+		C6944BF7169D5FCB00B8ABFC /* PinkShape.png in Resources */ = {isa = PBXBuildFile; fileRef = C6944BF6169D5FCB00B8ABFC /* PinkShape.png */; };
 		C69871691692DC4200276FA5 /* GrnLne1.png in Resources */ = {isa = PBXBuildFile; fileRef = C69871681692DC4200276FA5 /* GrnLne1.png */; };
 		C698716B1692E48400276FA5 /* TopImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C698716A1692E48400276FA5 /* TopImage.png */; };
 		C698716D1692E66500276FA5 /* Light Black.png in Resources */ = {isa = PBXBuildFile; fileRef = C698716C1692E66500276FA5 /* Light Black.png */; };
@@ -62,6 +71,7 @@
 		C63EFA67169AE2860082581C /* Female3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Female3.png; sourceTree = "<group>"; };
 		C63EFA68169AE2860082581C /* Male1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Male1.png; sourceTree = "<group>"; };
 		C63EFA69169AE2860082581C /* Male2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Male2.png; sourceTree = "<group>"; };
+		C64F4FDE169FBF0D00F42AAD /* Pinkline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pinkline.png; sourceTree = "<group>"; };
 		C692E93716941057007F340C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		C692E944169412CB007F340C /* Martin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Martin.png; path = ../Martin.png; sourceTree = "<group>"; };
 		C692E94816941A05007F340C /* CyanShape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CyanShape.png; path = ../CyanShape.png; sourceTree = "<group>"; };
@@ -73,15 +83,24 @@
 		C692E956169430F9007F340C /* Favorite2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Favorite2.png; path = ../Favorite2.png; sourceTree = "<group>"; };
 		C692E95F169439F2007F340C /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = ../arrow.png; sourceTree = "<group>"; };
 		C692E96116943AAC007F340C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C692F176169E8AAB003E6680 /* Male3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Male3.png; sourceTree = "<group>"; };
+		C692F177169E8AAB003E6680 /* Female5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Female5.png; sourceTree = "<group>"; };
+		C692F178169E8AAB003E6680 /* Female4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Female4.png; sourceTree = "<group>"; };
+		C692F179169E8AAB003E6680 /* Male4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Male4.png; sourceTree = "<group>"; };
+		C692F186169EDD3C003E6680 /* FavouritesTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FavouritesTitle.png; sourceTree = "<group>"; };
+		C692F189169EDE7D003E6680 /* MyChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyChatViewController.h; path = ../MyChatViewController.h; sourceTree = "<group>"; };
+		C692F18A169EDE7D003E6680 /* MyChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyChatViewController.m; path = ../MyChatViewController.m; sourceTree = "<group>"; };
+		C692F18B169EDE7D003E6680 /* MyChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyChatViewController.xib; path = ../MyChatViewController.xib; sourceTree = "<group>"; };
 		C693380F1696ACA7001A2BD2 /* UIScrollView+AH3DPullRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+AH3DPullRefresh.h"; path = "../UIScrollView+AH3DPullRefresh.h"; sourceTree = "<group>"; };
 		C69338101696ACA7001A2BD2 /* UIScrollView+AH3DPullRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+AH3DPullRefresh.m"; path = "../UIScrollView+AH3DPullRefresh.m"; sourceTree = "<group>"; };
-		C69338131696AD6C001A2BD2 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = ../ChatViewController.h; sourceTree = "<group>"; };
-		C69338141696AD6C001A2BD2 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = ../ChatViewController.m; sourceTree = "<group>"; };
-		C69338151696AD6C001A2BD2 /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChatViewController.xib; path = ../ChatViewController.xib; sourceTree = "<group>"; };
 		C69338181696ADF9001A2BD2 /* MyChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyChatCell.h; path = ../MyChatCell.h; sourceTree = "<group>"; };
 		C69338191696ADF9001A2BD2 /* MyChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyChatCell.m; path = ../MyChatCell.m; sourceTree = "<group>"; };
 		C693381A1696ADF9001A2BD2 /* MyChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyChatCell.xib; path = ../MyChatCell.xib; sourceTree = "<group>"; };
 		C693381F1696D13D001A2BD2 /* CyanTriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CyanTriangle.png; sourceTree = "<group>"; };
+		C6944BE8169D278B00B8ABFC /* classUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = classUser.h; path = ../classUser.h; sourceTree = "<group>"; };
+		C6944BE9169D278B00B8ABFC /* classUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = classUser.m; path = ../classUser.m; sourceTree = "<group>"; };
+		C6944BF2169D415A00B8ABFC /* pinkTriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinkTriangle.png; sourceTree = "<group>"; };
+		C6944BF6169D5FCB00B8ABFC /* PinkShape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinkShape.png; sourceTree = "<group>"; };
 		C69871681692DC4200276FA5 /* GrnLne1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GrnLne1.png; path = ../GrnLne1.png; sourceTree = "<group>"; };
 		C698716A1692E48400276FA5 /* TopImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TopImage.png; path = ../TopImage.png; sourceTree = "<group>"; };
 		C698716C1692E66500276FA5 /* Light Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Light Black.png"; path = "../Light Black.png"; sourceTree = "<group>"; };
@@ -165,17 +184,19 @@
 		E9D42E911692B5620028ECF9 /* IMA */ = {
 			isa = PBXGroup;
 			children = (
+				C6944BE8169D278B00B8ABFC /* classUser.h */,
+				C6944BE9169D278B00B8ABFC /* classUser.m */,
 				C693380F1696ACA7001A2BD2 /* UIScrollView+AH3DPullRefresh.h */,
 				C69338101696ACA7001A2BD2 /* UIScrollView+AH3DPullRefresh.m */,
 				E9D42ECA1692C9BC0028ECF9 /* MapsViewController.h */,
 				E9D42ECB1692C9BC0028ECF9 /* MapsViewController.m */,
 				E9D42ECC1692C9BC0028ECF9 /* MapsViewController.xib */,
-				C692E95116942B0D007F340C /* MyFavouriteCell.h */,
-				C692E95216942B0D007F340C /* MyFavouriteCell.m */,
-				C692E94F169428E5007F340C /* MyFavouriteCell.xib */,
 				E9D42ED81692D3A30028ECF9 /* SocialTabViewController.h */,
 				E9D42ED91692D3A30028ECF9 /* SocialTabViewController.m */,
 				E9D42EDA1692D3A30028ECF9 /* SocialTabViewController.xib */,
+				C692E95116942B0D007F340C /* MyFavouriteCell.h */,
+				C692E95216942B0D007F340C /* MyFavouriteCell.m */,
+				C692E94F169428E5007F340C /* MyFavouriteCell.xib */,
 				E9D42EC51692C8D40028ECF9 /* FavouriteViewController.h */,
 				E9D42EC61692C8D40028ECF9 /* FavouriteViewController.m */,
 				E9D42EC71692C8D40028ECF9 /* FavouriteViewController.xib */,
@@ -190,9 +211,9 @@
 				C69338181696ADF9001A2BD2 /* MyChatCell.h */,
 				C69338191696ADF9001A2BD2 /* MyChatCell.m */,
 				C693381A1696ADF9001A2BD2 /* MyChatCell.xib */,
-				C69338131696AD6C001A2BD2 /* ChatViewController.h */,
-				C69338141696AD6C001A2BD2 /* ChatViewController.m */,
-				C69338151696AD6C001A2BD2 /* ChatViewController.xib */,
+				C692F189169EDE7D003E6680 /* MyChatViewController.h */,
+				C692F18A169EDE7D003E6680 /* MyChatViewController.m */,
+				C692F18B169EDE7D003E6680 /* MyChatViewController.xib */,
 				E9D42E921692B5620028ECF9 /* Supporting Files */,
 			);
 			path = IMA;
@@ -213,10 +234,17 @@
 		E9D42EDE1692D3DF0028ECF9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C64F4FDE169FBF0D00F42AAD /* Pinkline.png */,
+				C692F186169EDD3C003E6680 /* FavouritesTitle.png */,
 				C63EFA65169AE2860082581C /* Female1.png */,
 				C63EFA66169AE2860082581C /* Female2.png */,
+				C692F176169E8AAB003E6680 /* Male3.png */,
+				C692F177169E8AAB003E6680 /* Female5.png */,
+				C692F178169E8AAB003E6680 /* Female4.png */,
+				C692F179169E8AAB003E6680 /* Male4.png */,
 				C63EFA67169AE2860082581C /* Female3.png */,
 				C63EFA68169AE2860082581C /* Male1.png */,
+				C6944BF6169D5FCB00B8ABFC /* PinkShape.png */,
 				C63EFA69169AE2860082581C /* Male2.png */,
 				C692E95F169439F2007F340C /* arrow.png */,
 				C693381F1696D13D001A2BD2 /* CyanTriangle.png */,
@@ -226,6 +254,7 @@
 				C692E956169430F9007F340C /* Favorite2.png */,
 				C69871721692F5B700276FA5 /* Cyan.png */,
 				C692E93716941057007F340C /* Default-568h@2x.png */,
+				C6944BF2169D415A00B8ABFC /* pinkTriangle.png */,
 				C698716C1692E66500276FA5 /* Light Black.png */,
 				C692E944169412CB007F340C /* Martin.png */,
 				C692E94D169425E6007F340C /* ChatTop.png */,
@@ -314,7 +343,6 @@
 				C692E95516943046007F340C /* FavoriteTop.png in Resources */,
 				C692E957169430F9007F340C /* Favorite2.png in Resources */,
 				C692E960169439F2007F340C /* arrow.png in Resources */,
-				C69338171696AD6C001A2BD2 /* ChatViewController.xib in Resources */,
 				C693381C1696ADF9001A2BD2 /* MyChatCell.xib in Resources */,
 				C69338201696D13D001A2BD2 /* CyanTriangle.png in Resources */,
 				C63EFA6A169AE2860082581C /* Female1.png in Resources */,
@@ -322,6 +350,15 @@
 				C63EFA6C169AE2860082581C /* Female3.png in Resources */,
 				C63EFA6D169AE2860082581C /* Male1.png in Resources */,
 				C63EFA6E169AE2860082581C /* Male2.png in Resources */,
+				C6944BF3169D415A00B8ABFC /* pinkTriangle.png in Resources */,
+				C6944BF7169D5FCB00B8ABFC /* PinkShape.png in Resources */,
+				C692F17A169E8AAB003E6680 /* Male3.png in Resources */,
+				C692F17B169E8AAB003E6680 /* Female5.png in Resources */,
+				C692F17C169E8AAB003E6680 /* Female4.png in Resources */,
+				C692F17D169E8AAB003E6680 /* Male4.png in Resources */,
+				C692F187169EDD3C003E6680 /* FavouritesTitle.png in Resources */,
+				C692F18D169EDE7D003E6680 /* MyChatViewController.xib in Resources */,
+				C64F4FDF169FBF0D00F42AAD /* Pinkline.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +378,9 @@
 				C6987178169301EA00276FA5 /* MyTableViewCell.m in Sources */,
 				C692E95316942B0D007F340C /* MyFavouriteCell.m in Sources */,
 				C69338111696ACA7001A2BD2 /* UIScrollView+AH3DPullRefresh.m in Sources */,
-				C69338161696AD6C001A2BD2 /* ChatViewController.m in Sources */,
 				C693381B1696ADF9001A2BD2 /* MyChatCell.m in Sources */,
+				C6944BEA169D278B00B8ABFC /* classUser.m in Sources */,
+				C692F18C169EDE7D003E6680 /* MyChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

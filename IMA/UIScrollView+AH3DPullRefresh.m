@@ -157,6 +157,7 @@ static CGFloat const kAHPullView_ViewHeight = 60.0;
 @property (nonatomic, assign) BOOL isPullToRefreshEnabled;
 @property (nonatomic, assign) BOOL isPullToLoadMoreEnabled;
 
+
 @end 
 
 // --------------------------------------------------------------------------------
@@ -181,7 +182,7 @@ static CGFloat const kAHPullView_ViewHeight = 60.0;
 - (id)initWithScrollView:(UIScrollView *)scrollView {
     
     self = [super initWithFrame:CGRectMake(0, -kAHPullView_ViewHeight/2, _scrollView.bounds.size.width, kAHPullView_ViewHeight)];
-
+    
     if (self) {
         
         // View setup
@@ -197,6 +198,7 @@ static CGFloat const kAHPullView_ViewHeight = 60.0;
         _loadingText = [NSLocalizedString(@"Loading...",@"") retain];
         _loadedText = [NSLocalizedString(@"Loaded!",@"") retain];
     }
+    
     return self;
 }
 
@@ -249,7 +251,7 @@ static CGFloat const kAHPullView_ViewHeight = 60.0;
     [self performSelector:@selector(pullAfterProgrammaticScroll) withObject:nil afterDelay:delay];    
 }
 
-- (void)pullToLoadMore {
+/*- (void)pullToLoadMore {
     
     // If the it's actually loading or being pulled we avoid loading
     if (_state != AHPullViewStateHidden) {
@@ -275,7 +277,7 @@ static CGFloat const kAHPullView_ViewHeight = 60.0;
     // The delay to prevent overlapping animations. It will be between 0.1 and 0.5 seconds
     CGFloat delay = MAX(MIN(_scrollView.contentOffset.y/_scrollView.contentSize.height,0.1),0.5);
     [self performSelector:@selector(pullAfterProgrammaticScroll) withObject:nil afterDelay:delay];
-}
+}*/
 
 - (void)refreshFinished {
     
@@ -790,6 +792,9 @@ static CGFloat const kAHPullView_ViewHeight = 60.0;
 
 - (void)addSubview:(UIView *)view {
     
+    UIToolbar *tb=[[UIToolbar alloc]initWithFrame:CGRectMake(0, 0, 320, 20)];
+    [_backgroundView addSubview:tb];
+    [self bringSubviewToFront:tb];
     [_backgroundView addSubview:view];
     [self bringSubviewToFront:_activityIndicator];
     [self bringSubviewToFront:_label];
@@ -912,7 +917,7 @@ static char kAHTV_Key_IsPullLoadMoreEnabled;
     [self.pullToRefreshView setPullToRefreshHandler:handler];
 }
 
-- (void)setPullToLoadMoreHandler:(void (^)(void))handler {
+/*- (void)setPullToLoadMoreHandler:(void (^)(void))handler {
     
     // If the view is nil, then it's created
     if (!self.pullToLoadMoreView) {
@@ -921,7 +926,7 @@ static char kAHTV_Key_IsPullLoadMoreEnabled;
     }
     
     [self.pullToLoadMoreView setPullToLoadMoreHandler:handler];
-}
+}*/
 
 #pragma mark > Actions
 
@@ -932,7 +937,7 @@ static char kAHTV_Key_IsPullLoadMoreEnabled;
 
 - (void)pullToLoadMore {
     
-    [self.pullToLoadMoreView pullToLoadMore];
+  //  [self.pullToLoadMoreView pullToLoadMore];
 }
 
 - (void)refreshFinished {
@@ -1063,12 +1068,13 @@ static char kAHTV_Key_IsPullLoadMoreEnabled;
 
 - (void)setIsPullToLoadMoreEnabled:(BOOL)enabled {
     
-    objc_setAssociatedObject(self, &kAHTV_Key_IsPullLoadMoreEnabled, [NSNumber numberWithBool:enabled], OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, &kAHTV_Key_IsPullLoadMoreEnabled, [NSNumber numberWithBool:NO], OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (BOOL)isPullToLoadMoreEnabled {
     
-    return [objc_getAssociatedObject(self, &kAHTV_Key_IsPullLoadMoreEnabled) boolValue];
+    return NO;
+    //[objc_getAssociatedObject(self, &kAHTV_Key_IsPullLoadMoreEnabled) boolValue];
 }
 
 @end

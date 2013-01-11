@@ -13,7 +13,8 @@
     UILabel *lblUserName;
     UILabel *lblStatus;
     UILabel *lblDate;
-    UIImage *imgProfilePic;
+    UIImageView *imgProfilePic;
+    UIImageView *imgRightShape;
 }
 @property(nonatomic,readonly) IBOutlet UILabel *lblUserName;
 
@@ -21,6 +22,12 @@
 
 @property(nonatomic,readonly) IBOutlet UILabel *lblDate;
 
-@property(nonatomic,retain) IBOutlet  UIImage *imgProfilePic;
+@property(nonatomic,retain) IBOutlet  UIImageView *imgProfilePic;
+
+@property(nonatomic,retain) IBOutlet  UIImageView *imgTriangle;
+
+@property(nonatomic,retain) IBOutlet  UIImageView *imgRightShape;
+
+@property(nonatomic,retain) IBOutlet UIImageView *imgBottomShape;
 
 @end

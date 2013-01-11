@@ -12,7 +12,7 @@
 
 #import "SocialTabViewController.h"
 
-#import "ChatViewController.h"
+#import "MyChatViewController.h"
 
 #import "FavouriteViewController.h"
 
@@ -36,7 +36,7 @@
     // Override point for customization after application launch.
     UIViewController *profile = [[[ProfileViewController alloc] initWithNibName:@"ProfileViewController" bundle:nil] autorelease];
     UIViewController *social = [[[SocialTabViewController alloc] initWithNibName:@"SocialTabViewController" bundle:nil] autorelease];
-    UIViewController *chats = [[[ChatViewController alloc] initWithNibName:@"ChatViewController" bundle:nil] autorelease];
+    UIViewController *chats = [[[MyChatViewController alloc] initWithNibName:@"MyChatViewController" bundle:nil] autorelease];
     UIViewController *favorite = [[[FavouriteViewController alloc] initWithNibName:@"FavouriteViewController" bundle:nil] autorelease];
     UIViewController *maps = [[[MapsViewController alloc] initWithNibName:@"MapsViewController" bundle:nil] autorelease];
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];

@@ -13,6 +13,16 @@
 @property(nonatomic,retain) IBOutlet UIButton *btnBack;
 @property(nonatomic,retain) IBOutlet UIImageView *imgProfile;
 
+@property(nonatomic,retain) IBOutlet UILabel *lblUserid;
+
+@property(nonatomic,retain) IBOutlet UILabel *lblWork;
+
+@property(nonatomic,retain) IBOutlet UILabel *lblLocation;
+@property(nonatomic,retain) IBOutlet UIImageView *imgTriangle;
+
+//@property(nonatomic,retain) IBOutlet
+
+
 -(IBAction)back:(id)sender;
 
 @end
