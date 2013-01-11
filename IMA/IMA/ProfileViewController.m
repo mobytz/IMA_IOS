@@ -82,8 +82,8 @@ forRowAtIndexPath:(NSIndexPath *)indexPath {
 
 -(IBAction)back:(id)sender
 {
-    self.btnBack.hidden=YES;
-    [self dismissViewControllerAnimated:YES completion:nil];
+    //self.btnBack.hidden=YES;
+    //[self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
