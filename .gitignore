@@ -2,3 +2,7 @@
 *.xcuserstate
 
 IMA/.DS_Store
+
+IMA/IMA.xcodeproj/xcuserdata/mobytz-002.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist
+
+.DS_Store

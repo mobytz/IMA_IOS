@@ -35,12 +35,14 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     UIViewController *profile = [[[ProfileViewController alloc] initWithNibName:@"ProfileViewController" bundle:nil] autorelease];
+    
     UIViewController *social = [[[SocialTabViewController alloc] initWithNibName:@"SocialTabViewController" bundle:nil] autorelease];
+    UINavigationController *sc=[[UINavigationController alloc]initWithRootViewController:social];
     UIViewController *chats = [[[ChatViewController alloc] initWithNibName:@"ChatViewController" bundle:nil] autorelease];
     UIViewController *favorite = [[[FavouriteViewController alloc] initWithNibName:@"FavouriteViewController" bundle:nil] autorelease];
     UIViewController *maps = [[[MapsViewController alloc] initWithNibName:@"MapsViewController" bundle:nil] autorelease];
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:profile, social,chats,favorite,maps, nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:profile, sc,chats,favorite,maps, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

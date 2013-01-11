@@ -11,6 +11,6 @@
 @interface ChatViewController : UIViewController
 
 
-@property (nonatomic,retain) IBOutlet UIImageView *profilePic;
+
 
 @end
